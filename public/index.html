@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>APP with sockets</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Document</title>
     <script src="/socket.io/socket.io.js"></script>
     <script src="main.js"></script>
 </head>
 <body>
-    <h1>My APP</h1>
-    <div id="messages"></div>
-    <br>
-    <form onsubmit="return addMessage(this)">
-        <input type="text" id="username" placeholder="Nombre">
-        <input type="text" id="texto" placeholder="Mensaje">
-        <input type="submit" value="Enviar!">
-    </form>
+    <section class="text">
+        <h3>Ingrese tu nombre</h3>
+
+        <form onsubmit="return setName(this)"> 
+            <input type="text" id="username" placeholder="Nombre" required>
+            <input class="buttons" type="submit" value="Validar" required>
+           <!-- BORRAR EL TARGET -->
+        </form>
+
+    </section>
 </body>
 </html>
