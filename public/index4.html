@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP with sockets</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>My APP</h1>
+    <div id="messages"></div>
+    <br>
+    <form onsubmit="return addMessage(this)">
+       <!-- <input type="text" id="username" placeholder="Nombre"> -->
+        <input type="text" id="texto" placeholder="Mensaje">
+        <input type="submit" value="Enviar!">
+    </form>
+    <script> window.onload=function(){setView(this,4)} </script>
+</body>
+</html>
