@@ -19,7 +19,6 @@ function getView(view){
 
 socket.on('messages', function(data){
     render(data);
-    console.log(data);
 });
 
 function render(data) {

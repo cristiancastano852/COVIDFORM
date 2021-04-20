@@ -5,7 +5,7 @@ var io = require('socket.io')(server);
 
 var messages = [{
   id: 1,
-text: "En este foro se desarrolla el tema de lo que implica tener COVID-19 en casa",
+text: "En este foro se desarrolla el tema ralacionado a la pregunta ¿Cómo es tener covid en casa?",
 author: "Administrador",
 view:0
 }];
@@ -19,7 +19,7 @@ view:1
 
 var messages3 = [{
   id: 1,
-text: "En este foro se desarrolla el tema de prevención contra el COVID-19",
+text: "En este foro se desarrolla el tema ralacionado a la pregunta ¿Cómo prevenir el coronavirus?",
 author: "Administrador",
 view:2
 }];
